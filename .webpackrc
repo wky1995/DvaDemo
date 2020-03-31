@@ -1,0 +1,7 @@
+{
+  "proxy":{
+    "/apis":"https://cnodejs.org",
+    "changeOrigin":true,
+    "pathRewrite":{"^/apis":""}
+  }
+}

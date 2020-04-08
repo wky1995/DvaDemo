@@ -1,7 +1,8 @@
 {
   "proxy":{
-    "/apis":"https://cnodejs.org",
+    "/apis":{"target":"https://cnodejs.org",
     "changeOrigin":true,
-    "pathRewrite":{"^/apis":""}
+    "pathRewrite":{"^/apis":""}}
+    
   }
 }

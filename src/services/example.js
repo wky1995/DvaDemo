@@ -1,6 +1,5 @@
 import request from "../utils/request";
-
-const pox = "/apis";
+const pox = "/apis/";
 export function query() {
   return request("/api/users");
 }
